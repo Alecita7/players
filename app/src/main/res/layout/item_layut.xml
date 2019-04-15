@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/playerphoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/playerJerseyNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17"
+        android:layout_toRightOf="@id/playerphoto"
+        android:textSize="22pt"
+        android:textColor="#eead1e"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/playerageicon"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_below="@id/playerJerseyNumber"
+        android:layout_toRightOf="@id/playerphoto"
+        android:src="@drawable/cumple"/>
+
+    <TextView
+        android:id="@+id/playerage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="37"
+        android:layout_toRightOf="@id/playerageicon"
+        android:layout_below="@id/playerJerseyNumber"
+        android:textSize="10pt"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:id="@+id/playerheighticon"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/playerage"
+        android:layout_below="@id/playerJerseyNumber"
+        android:src="@drawable/estatura"
+        android:layout_marginLeft="7dp"/>
+
+    <TextView
+        android:id="@+id/playerheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6-5"
+        android:layout_toRightOf="@id/playerheighticon"
+        android:layout_below="@id/playerJerseyNumber"
+        android:textSize="10pt"
+        android:layout_marginLeft="4dp"/>
+
+    <ImageView
+        android:id="@+id/playerweighticon"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/playerheight"
+        android:layout_below="@id/playerJerseyNumber"
+        android:src="@drawable/peso"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/playerweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="235"
+        android:layout_toRightOf="@id/playerweighticon"
+        android:layout_below="@id/playerJerseyNumber"
+        android:textSize="10pt"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/playername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Philip Rivers"
+        android:layout_toRightOf="@id/playerJerseyNumber"
+        android:textSize="14pt"
+        android:layout_marginLeft="14dp"/>
+
+    <TextView
+        android:id="@+id/playerposition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playername"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="-6dp"
+        android:layout_toRightOf="@id/playerJerseyNumber"
+        android:text="Quarterback"
+        android:textSize="9pt" />
+
+</RelativeLayout>
